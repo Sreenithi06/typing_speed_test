@@ -1,22 +1,41 @@
-# typing_speed_test
-A Tkinter-based app that generates random sentences, tracks typing time, and calculates WPM and accuracy.
-Features
-  1.Random sentence generation using the random module
-  2.Auto-start timer when the user begins typing
-  3.WPM (Words Per Minute) calculation
-  4.Accuracy calculation based on correct characters
-  5.Real-time GUI updates
-  6.Restart/Test Again button
-  7.Simple and clean interface
-  8.Tracks total characters typed
-  9.Beginner-friendly code structure
+# Typing Speed Test App
 
-Working
-  1.The program selects a random sentence from a predefined list and shows it to the user.
-  2.Timer logic : The timer starts the moment the user presses the first key in the input box.
-  3.WPM calculation : WPM = (Total characters / 5) / Time in minutes
-  4.Accuracy calculation : Accuracy = (Correct characters / Total typed characters) × 100
-  5.Live updates: The GUI updates speed and accuracy instantly after the user finishes typing.
-  
-  
+A **Tkinter-based typing speed tester** that generates random sentences, tracks typing time, and calculates your typing speed and accuracy in real-time. Beginner-friendly and perfect for learning Python GUI development.
 
+
+
+## Features
+
+- **Random sentence generation** using Python's `random` module  
+- **Auto-start timer** when typing begins  
+- **Words Per Minute (WPM)** calculation  
+- **Accuracy calculation** based on correct characters  
+- **Real-time GUI updates**  
+- **Restart/Test Again button**  
+- **Tracks total characters typed**  
+- **Simple and clean interface**  
+- **Beginner-friendly code structure**  
+
+
+
+## How It Works
+
+1. **Sentence Display**:  
+   - The program selects a random sentence from a predefined list and displays it to the user.  
+
+2. **Timer Logic**:  
+   - The timer starts automatically when the user types the first character in the input box.  
+
+3. **WPM Calculation**:
+    WPM = (Total characters typed / 5) ÷ Time in minutes
+
+5. **Accuracy Calculation**:
+    Accuracy (%) = (Correct characters / Total typed characters) × 100
+
+7. **Live Updates**:  
+   - The GUI shows WPM and accuracy instantly after the user finishes typing.  
+
+
+
+   ```bash
+   git clone <repository-link>
