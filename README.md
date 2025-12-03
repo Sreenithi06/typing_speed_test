@@ -31,11 +31,10 @@ A **Tkinter-based typing speed tester** that generates random sentences, tracks 
 
 5. **Accuracy Calculation**:
     Accuracy (%) = (Correct characters / Total typed characters) × 100
+   
 
-7. **Live Updates**:  
-   - The GUI shows WPM and accuracy instantly after the user finishes typing.  
+## Why This Project
 
-
-
-   ```bash
-   git clone <repository-link>
+- Learn **Python GUI development** using Tkinter.  
+- Understand **real-time calculations** in a small application.  
+- Improve **typing speed and accuracy**.  
